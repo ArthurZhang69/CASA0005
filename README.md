@@ -1,5 +1,3 @@
-# CASA0005
-Geographic Information Systems and Science
 
 ### Geographic Information Systems and Science (Arthur's Edition🗺)
 
