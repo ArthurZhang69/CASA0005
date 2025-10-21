@@ -43,7 +43,6 @@ Washington84 <- Washington_merged %>%
 tmap_mode("view")
 
 tm_shape(Washington84) + 
-  # add polygon layer
   tm_polygons(col = "overall_rate", palette="Blues", style="jenks",alpha=0.8, title= "Passed %")+
   tm_basemap(server = "OpenStreetMap") +
   tm_compass(type = "arrow", position = c("left", "bottom")) + 
